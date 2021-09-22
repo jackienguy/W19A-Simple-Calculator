@@ -4,8 +4,8 @@ from multiplication import multiply_two_numbers
 from division import divide_two_numbers
 
 operation = input("Enter math operation (+, -, *, /):")
-num1 = int(input('Enter your first number: '))
-num2 = int(input('Enter your second number '))
+num1 = int(input('Enter your first number (1,2,3, or 4): '))
+num2 = int(input('Enter your second number (1,2,3, or 4) '))
 
 
 if operation == '+':
